@@ -14,6 +14,11 @@
   --sans: "Noto Sans SC", "PingFang SC", Inter, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+html[lang="en"] {
+  --serif: "Iowan Old Style", Baskerville, "Times New Roman", serif;
+  --sans: Inter, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -44,6 +49,12 @@ img { display: block; max-width: 100%; }
 .nav-links { display: flex; align-items: center; gap: 32px; margin-left: auto; color: var(--muted); font-size: 12px; letter-spacing: .06em; }
 .nav-links a, .footer-links a, .text-link, .principles-note a { transition: color .2s ease; }
 .nav-links a:hover, .footer-links a:hover, .text-link:hover, .principles-note a:hover { color: var(--text); }
+.nav-actions { display: flex; align-items: center; gap: 22px; margin-left: auto; }
+.nav-links + .nav-actions { margin-left: 0; }
+.language-switch { display: inline-flex; align-items: center; gap: 7px; color: var(--muted); font-size: 10px; letter-spacing: .08em; white-space: nowrap; }
+.language-switch [aria-current="page"] { color: var(--text); }
+.language-switch a { transition: color .2s ease; }
+.language-switch a:hover { color: var(--text); }
 .nav-download { padding-bottom: 2px; border-bottom: 1px solid var(--text); font-size: 12px; letter-spacing: .06em; }
 
 .hero { padding: 36px 0 0; }
@@ -203,7 +214,8 @@ img { display: block; max-width: 100%; }
   :root { --shell: min(100% - 36px, 1160px); }
   .nav-shell { min-height: 68px; }
   .nav-links { display: none; }
-  .nav-download { margin-left: auto; font-size: 10px; }
+  .nav-actions { gap: 16px; margin-left: auto; }
+  .nav-download { font-size: 10px; }
   .hero { padding-top: 22px; }
   .hero-meta { gap: 20px; font-size: 8px; }
   .hero-copy { padding: 88px 0 90px; }

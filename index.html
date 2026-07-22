@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
@@ -7,6 +7,7 @@
   <meta name="description" content="NearCue 把 iPhone 和 Apple Watch 变成 Mac 上 AI 编程工具的本地遥控器。确认、停止、选择和语音输入，不必守在屏幕前。">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:title" content="NearCue — AI 在跑，你不必守着">
   <meta property="og:description" content="用 iPhone 和 Apple Watch，安全遥控 Mac 上的 AI 编程工具。">
   <meta property="og:url" content="https://mandandan.cn/nearcue/">
@@ -16,6 +17,9 @@
   <meta name="twitter:description" content="用 iPhone 和 Apple Watch，安全遥控 Mac 上的 AI 编程工具。">
   <meta name="twitter:image" content="https://mandandan.cn/nearcue/assets/og-nearcue.png">
   <link rel="canonical" href="https://mandandan.cn/nearcue/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://mandandan.cn/nearcue/">
+  <link rel="alternate" hreflang="en" href="https://mandandan.cn/nearcue/en.html">
+  <link rel="alternate" hreflang="x-default" href="https://mandandan.cn/nearcue/en.html">
   <link rel="icon" type="image/png" href="./assets/nearcue-icon.png">
   <link rel="apple-touch-icon" href="./assets/nearcue-icon.png">
   <style>
@@ -33,7 +37,8 @@
     html { font-family: "Noto Sans SC", Inter, sans-serif; }
     h1 { font-family: "Noto Serif SC", "Yu Mincho", serif; }
   </style>
-  <link rel="stylesheet" href="./styles.css?v=20260722-2">
+  <script src="./language.js?v=20260722-1" data-current-language="zh-Hans" data-alternate-page="./en.html"></script>
+  <link rel="stylesheet" href="./styles.css?v=20260722-3">
   <title>NearCue — AI 编程遥控器</title>
 </head>
 <body>
@@ -51,14 +56,17 @@
         <a href="#setup">使用方法</a>
         <a href="#faq">支持</a>
       </nav>
-      <a class="nav-download" href="#download">下载 / Download</a>
+      <div class="nav-actions">
+        <div class="language-switch" role="group" aria-label="语言切换"><span aria-current="page">中</span><span aria-hidden="true">/</span><a href="./en.html" lang="en" hreflang="en" data-language-choice="en">EN</a></div>
+        <a class="nav-download" href="#download">下载 / Download</a>
+      </div>
     </div>
   </header>
 
   <main id="main">
     <section class="hero" id="top">
       <div class="shell">
-        <div class="hero-meta" aria-label="产品信息">
+        <div class="hero-meta" role="group" aria-label="产品信息">
           <span>NearCue / Local Remote</span>
           <span>iPhone · Apple Watch · Mac</span>
         </div>
@@ -77,7 +85,7 @@
           </div>
         </div>
 
-        <div class="hero-map" aria-label="NearCue 通过本地网络连接 iPhone、Apple Watch 与 Mac">
+        <div class="hero-map" role="group" aria-label="NearCue 通过本地网络连接 iPhone、Apple Watch 与 Mac">
           <div class="map-node">
             <span class="map-number">01</span>
             <strong>iPhone</strong>
