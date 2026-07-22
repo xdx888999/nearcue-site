@@ -7,6 +7,7 @@
   --muted: #7A7166;
   --paper: #E8E1D2;
   --warm-gray: #C7B299;
+  --app-icon-radius: 22%;
   --shell: min(1160px, calc(100% - 64px));
   --serif: "Noto Serif SC", "Songti SC", STSong, "Yu Mincho", serif;
   --sans: "Noto Sans SC", "PingFang SC", Inter, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -38,7 +39,7 @@ img { display: block; max-width: 100%; }
 }
 .nav-shell { min-height: 78px; display: flex; align-items: center; gap: 44px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-family: var(--serif); font-size: 18px; font-weight: 500; letter-spacing: .03em; }
-.brand img { width: 34px; height: 34px; }
+.brand img { width: 34px; height: 34px; border-radius: var(--app-icon-radius); }
 .nav-links { display: flex; align-items: center; gap: 32px; margin-left: auto; color: var(--muted); font-size: 12px; letter-spacing: .06em; }
 .nav-links a, .footer-links a, .text-link, .principles-note a { transition: color .2s ease; }
 .nav-links a:hover, .footer-links a:hover, .text-link:hover, .principles-note a:hover { color: var(--text); }
@@ -83,7 +84,7 @@ img { display: block; max-width: 100%; }
 .map-line { padding: 0 18px; }
 .map-line span { display: block; width: 100%; height: 1px; background: var(--warm-gray); }
 .map-center { display: flex; flex-direction: column; align-items: center; }
-.map-center img { width: 72px; height: 72px; }
+.map-center img { width: 72px; height: 72px; border-radius: var(--app-icon-radius); }
 .watch-note { position: absolute; left: 50%; bottom: 52px; transform: translateX(-50%); color: var(--muted); font-size: 10px; letter-spacing: .06em; white-space: nowrap; }
 .watch-note span { margin-right: 8px; color: var(--warm-gray); font-family: var(--serif); }
 .hero-foot { display: flex; align-items: center; justify-content: space-between; gap: 40px; padding: 26px 0 50px; }
@@ -148,7 +149,7 @@ img { display: block; max-width: 100%; }
 .download-item + .download-item { padding-right: 0; padding-left: 50px; border-left: 1px solid var(--paper); }
 .download-head { display: flex; align-items: flex-start; justify-content: space-between; min-height: 126px; }
 .download-head > span { color: var(--warm-gray); font-family: var(--serif); font-size: 12px; }
-.download-head img { width: 58px; height: 58px; }
+.download-head img { width: 58px; height: 58px; border-radius: var(--app-icon-radius); }
 .download-platform { margin: 0 0 12px !important; color: var(--muted) !important; font-size: 10px !important; letter-spacing: .12em; text-transform: uppercase; }
 .download-body h3 { margin: 0; font-family: var(--serif); font-size: 29px; font-weight: 500; }
 .download-body > p { min-height: 62px; margin: 18px 0 30px; color: var(--muted); font-size: 13px; }
