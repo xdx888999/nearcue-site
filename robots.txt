@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xdx888999.github.io/nearcue-site/sitemap.xml

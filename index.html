@@ -1,117 +1,289 @@
-<!DOCTYPE html>
-<html lang="zh-Hans">
+<!doctype html>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NearCue 支持 / Support</title>
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
-    max-width: 720px; margin: 0 auto; padding: 32px 20px 64px;
-    line-height: 1.75; color: #1d1d1f; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { color: #f5f5f7; background: #1d1d1f; }
-    a { color: #6cb4ff; }
-    .card { background: #2c2c2e; }
-  }
-  h1 { font-size: 1.7em; margin-bottom: .2em; }
-  h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid rgba(128,128,128,.3); padding-bottom: .3em; }
-  .tagline { color: #86868b; margin-top: 0; }
-  .card {
-    background: #f5f5f7; border-radius: 12px; padding: 16px 20px; margin: 1.2em 0;
-  }
-  .divider { margin: 3.5em 0 2.5em; border: none; border-top: 2px solid rgba(128,128,128,.35); }
-  dt { font-weight: 600; margin-top: 1.1em; }
-  dd { margin: .3em 0 0 0; }
-  a { color: #0066cc; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="NearCue 把 iPhone 和 Apple Watch 变成 Mac 上 AI 编程工具的本地遥控器。确认、停止、选择和语音输入，不必守在屏幕前。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="NearCue — AI 在跑，你不必守着">
+  <meta property="og:description" content="用 iPhone 和 Apple Watch，安全遥控 Mac 上的 AI 编程工具。">
+  <meta property="og:url" content="https://xdx888999.github.io/nearcue-site/">
+  <meta property="og:image" content="https://xdx888999.github.io/nearcue-site/assets/og-nearcue.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NearCue — AI 在跑，你不必守着">
+  <meta name="twitter:description" content="用 iPhone 和 Apple Watch，安全遥控 Mac 上的 AI 编程工具。">
+  <meta name="twitter:image" content="https://xdx888999.github.io/nearcue-site/assets/og-nearcue.png">
+  <link rel="icon" type="image/png" href="./assets/nearcue-icon.png">
+  <link rel="apple-touch-icon" href="./assets/nearcue-icon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>NearCue — AI 编程遥控器</title>
 </head>
 <body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
 
-<h1>NearCue 支持</h1>
-<p class="tagline">Vibe Coding 本地遥控器 —— 用 iPhone 和 Apple Watch 遥控 Mac 上的 AI 编程工具</p>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="#top" aria-label="NearCue 首页">
+        <img src="./assets/nearcue-icon.png" width="38" height="38" alt="">
+        <span>NearCue</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#features">功能</a>
+        <a href="#setup">使用方法</a>
+        <a href="#download">下载</a>
+        <a href="#faq">常见问题</a>
+      </nav>
+      <a class="nav-download" href="#download">免费下载</a>
+    </div>
+  </header>
 
-<div class="card">
-  <strong>联系我们</strong><br>
-  邮件:<a href="mailto:xdx_lab@126.com">xdx_lab@126.com</a>(建议附上 App 版本号与系统版本,我们会尽快回复)<br>
-  隐私政策:<a href="./privacy.html">NearCue 隐私政策</a>
-</div>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> 为 AI Agent 开发者而做</div>
+          <h1>AI 在跑，<br><span>你不必守着。</span></h1>
+          <p class="hero-lead">NearCue 把 iPhone 和 Apple Watch 变成 Mac 上 AI 编程工具的本地遥控器。确认、停止、选择、说一句话，让任务继续推进。</p>
+          <div class="hero-actions">
+            <a class="app-store-link" href="https://apps.apple.com/cn/app/id6792160509" target="_blank" rel="noopener" aria-label="在 App Store 下载 NearCue iPhone 版">
+              <img src="./assets/app-store-badge.svg" width="163" height="60" alt="在 App Store 下载">
+            </a>
+            <a class="button button-primary" href="https://github.com/xdx888999/nearcue-site/releases/latest/download/NearCue.dmg">
+              <span class="button-icon" aria-hidden="true">↓</span>
+              <span><strong>下载 Mac 版</strong><small>免费 · macOS 15+</small></span>
+            </a>
+          </div>
+          <div class="hero-proof" aria-label="安全和分发信息">
+            <span><i>✓</i> Apple 公证</span>
+            <span><i>✓</i> Developer ID 签名</span>
+            <span><i>✓</i> 无账号</span>
+          </div>
+        </div>
 
-<h2>快速上手</h2>
-<ol>
-  <li>在 Mac 上安装并打开 NearCue(菜单栏图标),点击「显示配对码」。</li>
-  <li>在 iPhone 上打开 NearCue,选择发现的 Mac,输入六位配对码,并在 Mac 上批准。</li>
-  <li>在 Mac 的 NearCue 设置中「启用控制」,按系统提示授予辅助功能权限。</li>
-  <li>把想控制的应用(Codex、Claude、终端等)切到前台,点击「添加应用」批准。</li>
-  <li>现在就能用 iPhone 或 Apple Watch 确认、停止、语音输入了。</li>
-</ol>
+        <div class="product-stage" aria-label="NearCue 在 iPhone、Apple Watch 和 Mac 上的界面示意">
+          <div class="signal-ring signal-ring-one" aria-hidden="true"></div>
+          <div class="signal-ring signal-ring-two" aria-hidden="true"></div>
 
-<h2>常见问题</h2>
-<dl>
-  <dt>iPhone 找不到我的 Mac?</dt>
-  <dd>确认两台设备在同一 Wi-Fi(或蓝牙可达范围内),且首次启动时已允许 NearCue 使用「本地网络」。可在 iPhone 设置 → 隐私与安全性 → 本地网络 中检查。</dd>
+          <div class="mac-card">
+            <div class="window-bar">
+              <span class="window-dot red"></span><span class="window-dot amber"></span><span class="window-dot green"></span>
+              <span class="window-title">NearCue for Mac</span>
+            </div>
+            <div class="mac-content">
+              <div class="mac-status">
+                <img src="./assets/nearcue-icon.png" alt="" width="44" height="44">
+                <div><strong>NearCue</strong><span><i></i> iPhone 已连接</span></div>
+              </div>
+              <div class="current-app">
+                <span class="code-mark">&gt;_</span>
+                <div><small>当前控制</small><strong>AI 编程工具</strong></div>
+                <span class="approved">已允许</span>
+              </div>
+              <div class="privacy-line"><span>⌁</span> 本地网络 · 端到端加密</div>
+            </div>
+          </div>
 
-  <dt>按了按钮但 Mac 没反应?</dt>
-  <dd>检查三件事:① Mac 端已授予辅助功能权限;② 要控制的应用在 Mac 前台;③ 该应用已在 NearCue 中批准。状态卡会显示当前正在控制的应用。</dd>
+          <div class="phone-card">
+            <div class="phone-island"></div>
+            <div class="phone-screen">
+              <div class="phone-top"><span>9:41</span><span>● ●</span></div>
+              <div class="phone-heading">
+                <img src="./assets/nearcue-icon.png" width="34" height="34" alt="">
+                <div><strong>工作室 Mac</strong><small><i></i> 已连接</small></div>
+              </div>
+              <div class="agent-card">
+                <small>AI 正在等待你的操作</small>
+                <strong>允许继续执行？</strong>
+              </div>
+              <div class="remote-grid">
+                <span class="remote-key confirm-key"><b>↵</b>确认</span>
+                <span class="remote-key"><b>⌫</b>停止</span>
+                <span class="remote-key"><b>↑</b>上一项</span>
+                <span class="remote-key"><b>↓</b>下一项</span>
+              </div>
+              <div class="voice-bar"><span>●</span> 按住说话</div>
+            </div>
+          </div>
 
-  <dt>Apple Watch 上怎么安装?</dt>
-  <dd>无需单独安装:装好 iPhone 版后,手表端会自动出现(或在 Watch App 中手动安装)。手表经 iPhone 中继与 Mac 通信。</dd>
+          <div class="watch-card">
+            <div class="watch-screen">
+              <small>NearCue</small>
+              <strong>继续？</strong>
+              <span>✓ 确认</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <dt>语音听写的文字会自动发送吗?</dt>
-  <dd>不会。听写文字只插入 Mac 当前输入框,永远不会自动确认或提交——最后一步始终由你决定。</dd>
+    <section class="trust-strip" aria-label="NearCue 隐私特性">
+      <div class="shell trust-grid">
+        <div><strong>100%</strong><span>本地网络通信</span></div>
+        <div><strong>0</strong><span>账号与云端服务</span></div>
+        <div><strong>设备端</strong><span>语音识别</span></div>
+        <div><strong>你决定</strong><span>最终确认与提交</span></div>
+      </div>
+    </section>
 
-  <dt>免费版和正式版的区别?</dt>
-  <dd>免费版:配对一台 Mac,使用确认、停止与 Mac 语音开关。一次性买断解锁全部功能(听写、全部按键、命令库、手表快捷键、多 Mac),iPhone、Apple Watch、Mac 三端通用,无订阅。</dd>
+    <section class="section" id="features">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="kicker">不再盯屏</p>
+          <h2>离开工位，任务依然在你掌控中</h2>
+          <p>不是远程桌面，也不读取屏幕。NearCue 只把你主动触发的操作，安全送到当前允许的 Mac 应用。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-card-wide blue-card">
+            <div class="feature-icon">↵</div>
+            <div>
+              <p class="card-label">最常用的操作，一秒完成</p>
+              <h3>确认、停止与选项切换</h3>
+              <p>AI 等你拍板时，手机或手表上按一下。支持方向选择、Tab、删除、撤销和命令前缀。</p>
+            </div>
+            <div class="key-cloud" aria-hidden="true"><span>确认</span><span>停止</span><span>↑</span><span>↓</span><span>Tab</span></div>
+          </article>
 
-  <dt>换了手机或重装后如何恢复购买?</dt>
-  <dd>在 iPhone 的 NearCue 设置或购买页点「恢复购买」,使用购买时的 Apple 账户即可。</dd>
+          <article class="feature-card violet-card">
+            <div class="feature-icon">◉</div>
+            <p class="card-label">自然输入</p>
+            <h3>把手机和手表变成麦克风</h3>
+            <p>说完即插入 Mac 当前输入框，绝不自动提交，最后一步始终由你决定。</p>
+            <div class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
 
-  <dt>我的代码和数据安全吗?</dt>
-  <dd>NearCue 只在本地网络通信,不经互联网;不读取屏幕、代码或剪贴板;无账号无云端。详见<a href="./privacy.html">隐私政策</a>。</dd>
-</dl>
+          <article class="feature-card cyan-card">
+            <div class="feature-icon">⌘</div>
+            <p class="card-label">更少重复</p>
+            <h3>常用命令，一键插入</h3>
+            <p>把高频指令保存为按钮，在 iPhone 管理，自动同步到 Apple Watch。</p>
+            <div class="command-list" aria-hidden="true"><span>/review</span><span>/test</span><span>/commit</span></div>
+          </article>
 
-<hr class="divider">
+          <article class="feature-card feature-card-wide dark-card">
+            <div class="feature-icon">⌁</div>
+            <div>
+              <p class="card-label">隐私优先，不是宣传口号</p>
+              <h3>数据只在你的设备之间流动</h3>
+              <p>无账号、无云端、无分析 SDK。不读取屏幕、代码或剪贴板；每台 Mac 和每个受控应用都需要你明确批准。</p>
+            </div>
+            <div class="local-path" aria-hidden="true">
+              <span class="path-device">iPhone</span><i></i><span class="path-lock">加密</span><i></i><span class="path-device">Mac</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<h1>NearCue Support</h1>
-<p class="tagline">A local-network remote for the AI coding tools on your Mac</p>
+    <section class="section setup-section" id="setup">
+      <div class="shell">
+        <div class="section-heading compact-heading">
+          <p class="kicker">三步开始</p>
+          <h2>配对很快，权限很清楚</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-number">01</span>
+            <div><h3>安装两端</h3><p>从 App Store 安装 iPhone 版，从本官网下载免费的 Mac 接收端。</p></div>
+          </li>
+          <li>
+            <span class="step-number">02</span>
+            <div><h3>输入配对码</h3><p>两台设备位于同一附近网络时，输入六位配对码并在 Mac 上批准。</p></div>
+          </li>
+          <li>
+            <span class="step-number">03</span>
+            <div><h3>允许要控制的应用</h3><p>授予 Mac 辅助功能权限，再明确添加 Codex、Claude、终端等前台应用。</p></div>
+          </li>
+        </ol>
+        <div class="permission-note">
+          <span class="note-icon">!</span>
+          <div><strong>为什么 Mac 需要辅助功能权限？</strong><p>NearCue 用它把你主动按下的按键发送给当前允许的应用。它不会读取屏幕内容，也不会在你未操作时自动控制电脑。</p></div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-  <strong>Contact</strong><br>
-  Email: <a href="mailto:xdx_lab@126.com">xdx_lab@126.com</a> (please include your app and OS versions)<br>
-  Privacy: <a href="./privacy.html">NearCue Privacy Policy</a>
-</div>
+    <section class="section download-section" id="download">
+      <div class="shell">
+        <div class="section-heading compact-heading">
+          <p class="kicker">现在开始</p>
+          <h2>一套 NearCue，连接你的三块屏幕</h2>
+          <p>Mac 接收端免费下载。iPhone 免费版可完成基础控制，一次性内购买断可解锁全部遥控功能，无订阅。</p>
+        </div>
+        <div class="download-grid">
+          <article class="download-card phone-download">
+            <div class="download-tag">iPhone + Apple Watch</div>
+            <img class="download-icon" src="./assets/nearcue-icon.png" width="82" height="82" alt="NearCue 图标">
+            <h3>NearCue 移动端</h3>
+            <p>在 App Store 免费下载。Apple Watch App 随 iPhone 版提供。</p>
+            <a class="app-store-link large-badge" href="https://apps.apple.com/cn/app/id6792160509" target="_blank" rel="noopener" aria-label="在 App Store 下载 NearCue">
+              <img src="./assets/app-store-badge.svg" width="174" height="64" alt="在 App Store 下载">
+            </a>
+            <small>需要 iOS 18 或更高版本</small>
+          </article>
+          <article class="download-card mac-download">
+            <div class="download-tag">Mac 接收端</div>
+            <img class="download-icon" src="./assets/nearcue-mac-icon.png" width="82" height="82" alt="NearCue Mac 图标">
+            <h3>NearCue for Mac</h3>
+            <p>免费下载安装，已使用 Developer ID 签名并通过 Apple 公证。</p>
+            <a class="button button-light" href="https://github.com/xdx888999/nearcue-site/releases/latest/download/NearCue.dmg"><span class="button-icon">↓</span><span><strong>下载 NearCue.dmg</strong><small>版本 1.0 · Build 8</small></span></a>
+            <small>需要 macOS 15 或更高版本 · <a href="https://github.com/xdx888999/nearcue-site/releases/latest/download/NearCue.dmg.sha256">校验文件</a></small>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<h2>Getting started</h2>
-<ol>
-  <li>Install and open NearCue on your Mac (menu bar icon), then click "Show Pairing Code".</li>
-  <li>On iPhone, pick the discovered Mac, enter the six-digit code, and approve on the Mac.</li>
-  <li>Enable control in the Mac app and grant the Accessibility permission.</li>
-  <li>Bring the app you want to control (Codex, Claude, a terminal…) to the front and approve it via "Add App".</li>
-  <li>Confirm, stop, and dictate from iPhone or Apple Watch.</li>
-</ol>
+    <section class="section faq-section" id="faq">
+      <div class="shell faq-layout">
+        <div class="faq-intro">
+          <p class="kicker">常见问题</p>
+          <h2>还有疑问？</h2>
+          <p>遇到配对、权限或购买恢复问题，可以直接联系我们。</p>
+          <a class="text-link" href="mailto:xdx_lab@126.com">xdx_lab@126.com <span>↗</span></a>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>iPhone 找不到我的 Mac？<span>＋</span></summary>
+            <p>确认两台设备处于同一 Wi-Fi 或附近点对点网络，并在 iPhone 的“设置 → 隐私与安全性 → 本地网络”中允许 NearCue。Mac 端 NearCue 需要保持运行。</p>
+          </details>
+          <details>
+            <summary>为什么 Mac 版不在 Mac App Store？<span>＋</span></summary>
+            <p>NearCue 需要把你主动触发的按键发送到受控应用，因此使用了辅助功能权限。Mac 版改为官网分发，但安装包仍使用 Apple Developer ID 签名并完成公证。</p>
+          </details>
+          <details>
+            <summary>按下按钮后 Mac 没有反应？<span>＋</span></summary>
+            <p>请检查 Mac 端是否已授予辅助功能权限、目标应用是否位于前台，以及该应用是否已经在 NearCue 中明确允许。</p>
+          </details>
+          <details>
+            <summary>语音输入会自动提交吗？<span>＋</span></summary>
+            <p>不会。NearCue 只把识别文字插入 Mac 当前输入框，不会自动确认或发送。最终提交始终由你决定。</p>
+          </details>
+          <details>
+            <summary>怎样恢复一次性购买？<span>＋</span></summary>
+            <p>在 iPhone 的 NearCue 设置或购买页面点击“恢复购买”，并使用购买时的 Apple 账户。Mac 接收端本身免费，无需再次购买。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<h2>FAQ</h2>
-<dl>
-  <dt>iPhone can't find my Mac?</dt>
-  <dd>Make sure both devices are on the same Wi-Fi (or within Bluetooth range) and that NearCue has Local Network permission on iPhone (Settings → Privacy &amp; Security → Local Network).</dd>
-
-  <dt>Buttons don't do anything on the Mac?</dt>
-  <dd>Check that ① Accessibility permission is granted on the Mac, ② the target app is frontmost, and ③ the app is approved in NearCue.</dd>
-
-  <dt>How do I install the Apple Watch app?</dt>
-  <dd>No separate install: it ships inside the iPhone app and appears on your watch automatically (or install it from the Watch app).</dd>
-
-  <dt>Is dictated text submitted automatically?</dt>
-  <dd>Never. Dictation only inserts text into the current Mac input. You always make the final call.</dd>
-
-  <dt>Free vs. full version?</dt>
-  <dd>Free: pair one Mac, with Confirm, Stop, and the Mac voice toggle. A one-time purchase unlocks everything across iPhone, Apple Watch, and Mac. No subscription.</dd>
-
-  <dt>How do I restore my purchase?</dt>
-  <dd>Tap "Restore Purchases" in NearCue's settings or purchase screen, signed in with the Apple account used for the purchase.</dd>
-</dl>
-
+  <footer class="site-footer">
+    <div class="shell footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#top"><img src="./assets/nearcue-icon.png" width="38" height="38" alt=""><span>NearCue</span></a>
+        <p>AI 在跑，你不必守着。</p>
+      </div>
+      <div class="footer-links">
+        <div><strong>产品</strong><a href="#features">功能</a><a href="#setup">使用方法</a><a href="#download">下载</a></div>
+        <div><strong>支持</strong><a href="#faq">常见问题</a><a href="mailto:xdx_lab@126.com">联系支持</a><a href="./privacy.html">隐私政策</a></div>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© 2026 NearCue. 保留所有权利。</span>
+      <span>Apple、Apple Watch、App Store、iPhone 和 Mac 是 Apple Inc. 在美国及其他国家和地区注册的商标。</span>
+    </div>
+  </footer>
 </body>
 </html>
